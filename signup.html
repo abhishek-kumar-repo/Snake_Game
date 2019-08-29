@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+       Sign in page
+    </title>
+     <link rel="icon" type="image/gif" href="titleimg.gif">
+
+     
+      <link href="assets/css/swlstyle.css" rel="stylesheet">
+    
+
+    <style type="text/css">
+    	
+    	body{
+    		background:none;
+    	}
+      html { 
+  background: url(assets/img/Animebackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+   
+    .container{
+      text-align: center;
+      margin-top: 190px;
+      width:550px;
+    }
+
+    
+    </style>
+
+    
+
+</head>
+
+
+<body>
+
+  <div class="container">
+  	<h1 class="display-4" style="color:white;font-weight:bold;font-size:80px; ">Sign in Page</h1>
+   
+    <form ">
+      <fieldset class="form-group">
+        <label for="email" style=" color:white;font-weight:bold; " >Email </label>
+        <input type="text" class="form-control" name="email" id="email" placeholder="Enter your email address" id="email">
+         <label for="password" style=" color:white;font-weight:bold; ">Password </label>
+        <input type="password" class="form-control" name="password" id="password" placeholder="Enter your valid password" id="password">
+      </fieldset>
+  <!--button-->  <a  href="game1.html" class="btn btn-success" role="button" id="submit" >Sign In</a>
+
+  	
+    </form>
+  	</div> 
+    <script type="text/javascript">
+    	document.getElementById("submit").onclick=function(){
+    		window.location.href="game1.html";
+    	 }
+    	/* if(document.getElementById("email").innerHTML="Abhi@gmail.com" && document.getElementById("password").innerHTML="12345") {
+    		   location.href="game1.html";
+    		}else{
+    			alert("error");
+    		}*/
+    </script>
+    	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+<!-------------------------------------------------------------------------------------------------->
+   
+</body>
+</html>
